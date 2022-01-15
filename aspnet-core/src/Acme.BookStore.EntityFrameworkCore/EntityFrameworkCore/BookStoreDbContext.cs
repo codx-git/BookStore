@@ -1,4 +1,5 @@
 ﻿using Acme.BookStore.Books;
+using Acme.BookStore.PurchaseHistory;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
@@ -60,6 +61,7 @@ public class BookStoreDbContext :
 
     }
     public DbSet<Book> Books { get; set; }
+    public DbSet<Purchase> Purchases { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -88,6 +90,14 @@ public class BookStoreDbContext :
         builder.Entity<Book>(b =>
         {
             b.ToTable(BookStoreConsts.DbTablePrefix + "Books",
+                BookStoreConsts.DbSchema);
+            b.ConfigureByConvention(); //auto configure for the base class props
+            b.Property(x => x.Name).IsRequired().HasMaxLength(128);
+        });
+
+        builder.Entity<Purchase>(b =>
+        {
+            b.ToTable(BookStoreConsts.DbTablePrefix + "Purchase",
                 BookStoreConsts.DbSchema);
             b.ConfigureByConvention(); //auto configure for the base class props
             b.Property(x => x.Name).IsRequired().HasMaxLength(128);

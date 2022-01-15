@@ -1,4 +1,5 @@
 ﻿using Acme.BookStore.Books;
+using Acme.BookStore.PurchaseHistory;
 using AutoMapper;
 
 namespace Acme.BookStore;
@@ -12,5 +13,8 @@ public class BookStoreApplicationAutoMapperProfile : Profile
          * into multiple profile classes for a better organization. */
         CreateMap<Book, BookDto>();
         CreateMap<CreateUpdateBookDto, Book>();
+
+        CreateMap<Purchase, PurchaseHistoryDto>();
+
     }
 }
