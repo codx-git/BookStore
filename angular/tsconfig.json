@@ -1,4 +1,3 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -17,8 +16,18 @@
       "dom"
     ],
     "paths": {
-      "@proxy": ["src/app/proxy/index.ts"],
-      "@proxy/*": ["src/app/proxy/*"]
+      "@proxy": [
+        "src/app/proxy/index.ts"
+      ],
+      "@proxy/*": [
+        "src/app/proxy/*"
+      ],
+      "BookModule/projects/book-module": [
+        "projects/BookModule/projects/book-module/src/public-api.ts"
+      ],
+      "BookModule/projects/book-module/config": [
+        "projects/BookModule/projects/book-module/config/src/public-api.ts"
+      ]
     }
   },
   "angularCompilerOptions": {

@@ -17,7 +17,7 @@
     <PackageReference Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="5.1.1" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="5.1.1" />
     <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="5.1.1" />
-  </ItemGroup>
+  <ProjectReference Include="..\..\modules\BookModule\src\BookModule.Domain.Shared\BookModule.Domain.Shared.csproj" /></ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Localization\BookStore\*.json" />

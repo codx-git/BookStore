@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@book-module": [
+        "projects/book-module/src/public-api.ts"
+      ],
+      "@book-module/config": [
+        "projects/book-module/config/src/public-api.ts"
+      ],
+      "@proxy": ["projects/book-module/src/lib/proxy/index.ts"],
+      "@proxy/*": ["projects/book-module/src/lib/proxy/*"]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "BookModule.Domain.Shared": {
+      "path": "src/BookModule.Domain.Shared/BookModule.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.Domain": {
+      "path": "src/BookModule.Domain/BookModule.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.Application.Contracts": {
+      "path": "src/BookModule.Application.Contracts/BookModule.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.Application": {
+      "path": "src/BookModule.Application/BookModule.Application.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.EntityFrameworkCore": {
+      "path": "src/BookModule.EntityFrameworkCore/BookModule.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.MongoDB": {
+      "path": "src/BookModule.MongoDB/BookModule.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.HttpApi": {
+      "path": "src/BookModule.HttpApi/BookModule.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.HttpApi.Client": {
+      "path": "src/BookModule.HttpApi.Client/BookModule.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.TestBase": {
+      "path": "test/BookModule.TestBase/BookModule.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "BookModule.EntityFrameworkCore.Tests": {
+      "path": "test/BookModule.EntityFrameworkCore.Tests/BookModule.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BookModule.MongoDB.Tests": {
+      "path": "test/BookModule.MongoDB.Tests/BookModule.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BookModule.Domain.Tests": {
+      "path": "test/BookModule.Domain.Tests/BookModule.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BookModule.Application.Tests": {
+      "path": "test/BookModule.Application.Tests/BookModule.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BookModule.HttpApi.Host": {
+      "path": "host/BookModule.HttpApi.Host/BookModule.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "BookModule.Web": {
+      "path": "src/BookModule.Web/BookModule.Web.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/BookModule.HttpApi.Client.ConsoleTestApp/BookModule.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "BookModule.Web.Host": {
+      "path": "host/BookModule.Web.Host/BookModule.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "BookModule.IdentityServer": {
+      "path": "host/BookModule.IdentityServer/BookModule.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "BookModule.Host.Shared": {
+      "path": "host/BookModule.Host.Shared/BookModule.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "BookModule.Web.Unified": {
+      "path": "host/BookModule.Web.Unified/BookModule.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "BookModule.Blazor": {
+      "path": "src/BookModule.Blazor/BookModule.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.Blazor.Host": {
+      "path": "host/BookModule.Blazor.Host/BookModule.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "BookModule.Blazor.Server": {
+      "path": "src/BookModule.Blazor.Server/BookModule.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.Blazor.WebAssembly": {
+      "path": "src/BookModule.Blazor.WebAssembly/BookModule.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "BookModule.Blazor.Server.Host": {
+      "path": "host/BookModule.Blazor.Server.Host/BookModule.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
